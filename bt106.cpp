@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//bai nay do cach lam dai dong voi sai nen co tham khao chatgpt
 string docChuSo(int d) {
     switch (d) {
         case 0: return "khong";

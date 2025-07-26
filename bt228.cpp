@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void nhapmang(double a[],int n){
+for(int i=0;i<n;i++){
+    cin >> a[i];
+}}
+void inmang(double a[],int n){
+    double tong=0;
+for(int i=0;i <n-1;i++){
+if(a[i]*a[i+1]>0) if(a[i]>abs(a[i+1])) tong++;
+    }
+    cout << tong;
+}
+
+int main(){
+    int n,x,y;
+    cin >> n;
+double a[n];
+nhapmang(a,n);
+inmang(a,n);
+    return 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+

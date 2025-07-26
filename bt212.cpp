@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+void nhapmang(double a[],int n){
+    double tong=0;
+    double dem=0;
+for(int i=0;i<n;i++){
+    cin >> a[i];
+    if(a[i]>0){
+    tong+=a[i];
+    dem++;}
+}
+cout << tong/dem;
+}
+
+int main(){
+    int n,x,y;
+    cin >> n;
+double a[n];
+nhapmang(a,n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    //bai nay do sai switch case chua quen nen co nho chatgpt lam mau
     int n;
     cin >> n;
     string s = "";

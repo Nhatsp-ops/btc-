@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    // bai nay co tham khao cua ban va chatgpt ve cach dem so uoc cua mot so bang phan tich thua so nguyen to
     int n,s=1,p=0;
     cin >> n;
     int i  = 2;

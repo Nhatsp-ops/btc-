@@ -1,0 +1,113 @@
+#include<bits/stdc++.h>
+using namespace std;
+void nhapmang(vector<vector<int>>& a,int n,int m){
+    int max1=0;
+    vector<pair<int,int>> v;
+for(int i=0;i<n;i++){
+        double tong=0;
+    for(int j=0;j<m;j++){
+    cin >> a[i][j];
+    }
+    }
+    for(int i=0;i<m;i++){
+        double tong=0;
+    for(int j=0;j<n;j++){
+            string s=to_string(a[j][i]);
+    tong+=s.size();
+    }
+v.push_back({tong,i});
+if(tong > max1) max1=tong;
+    }
+    for(auto x:v){
+        if(x.first==max1) {cout << x.second<<endl;}
+    }
+}
+int main(){
+int n,m;
+
+    cin >> n>>m;
+    vector<vector<int>> a(n,vector<int>(m));
+nhapmang(a,n,m);
+    return 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

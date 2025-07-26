@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    //bai nay co tham khao cong thuc tim nghiem pt 2 an
 double a,b,c,f,d,e;
     cin >> a>>b>>c>>d>>e>>f;
    double D,Dx,Dy;
